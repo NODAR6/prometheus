@@ -37,4 +37,4 @@ jobs:
         helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
         helm install my-prometheus prometheus-community/prometheus --version 25.22.0
         ls
-        kubectl delete -f sonarqube.yaml -n sonarqube
+        kubectl delete -f prometheus.yaml -n sonarqube
